@@ -36,14 +36,14 @@ class LogViewer extends Extension
      * @var array
      */
     public static $levelColors = [
-        'EMERGENCY' => 'black',
+        'EMERGENCY' => 'default',
         'ALERT'     => 'navy',
         'CRITICAL'  => 'maroon',
-        'ERROR'     => 'red',
-        'WARNING'   => 'orange',
-        'NOTICE'    => 'light-blue',
-        'INFO'      => 'aqua',
-        'DEBUG'     => 'green',
+        'ERROR'     => 'danger',
+        'WARNING'   => 'warning',
+        'NOTICE'    => 'primary',
+        'INFO'      => 'info',
+        'DEBUG'     => 'success',
     ];
 
     /**
